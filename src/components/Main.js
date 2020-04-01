@@ -15,7 +15,7 @@ function Main() {
         <section>
             <img src={logo} className="logo" alt="logo" />
             <Button variant="contained" color="primary" onClick={increment}>
-                {count ? count : 'Hello World!'}
+                {count ? count : 'Hello World!!'}
             </Button>
         </section>
     )
