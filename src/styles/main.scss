@@ -14,23 +14,26 @@ code {
         monospace;
 }
 
-.App {
-    text-align: center;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
+    .logo {
         animation: App-logo-spin infinite 20s linear;
     }
 }
 
-.App-header {
+header,
+section,
+footer {
+    text-align: center;
     background-color: $primary-color;
+}
+
+header,
+footer {
+    color: white;
+    padding: 1rem;
+}
+
+section {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -38,10 +41,10 @@ code {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
-
-.App-link {
-    color: $secondary-color;
+    .logo {
+        height: 40vmin;
+        pointer-events: none;
+    }
 }
 
 @keyframes App-logo-spin {
