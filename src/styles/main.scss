@@ -16,21 +16,14 @@ code {
 
 @media (prefers-reduced-motion: no-preference) {
     .logo {
-        animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 10s linear;
     }
 }
 
 header,
 section,
 footer {
-    text-align: center;
     background-color: $primary-color;
-}
-
-header,
-footer {
-    color: white;
-    padding: 1rem;
 }
 
 section {
@@ -42,9 +35,12 @@ section {
     font-size: calc(10px + 2vmin);
     color: white;
     .logo {
-        height: 40vmin;
-        pointer-events: none;
+        font-size: 50px;
     }
+}
+
+.logo {
+    animation: App-logo-spin infinite 20s linear;
 }
 
 @keyframes App-logo-spin {
